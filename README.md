@@ -13,7 +13,7 @@ So basically an end-to-end Machine Learning system built to forecast house price
 ---
 
 ##  Project Structure
-
+```
 ├── script.py                # Cleans raw data, engineers features, and saves the trained model
 ├── app.py                   # FastAPI backend server exposing the prediction endpoint
 ├── ui.py                    # Streamlit frontend user interface
