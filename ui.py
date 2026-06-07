@@ -13,7 +13,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='main-title'>Predicting House PRices USing Real Estate Data</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-title'>Predicting House Prices Using Real Estate Data</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Predict property market values instantly using Machine Learning</div>", unsafe_allow_html=True)
 st.divider()
 
