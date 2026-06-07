@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 st.set_page_config(page_title="House Price Prediction", page_icon="🏠", layout="centered")
-=
+
 st.markdown("""
     <style>
     .main-title { font-size: 38px; font-weight: bold; color: #1E3A8A; text-align: center; margin-bottom: 10px; }
