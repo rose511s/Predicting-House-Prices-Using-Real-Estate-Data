@@ -1,20 +1,19 @@
 [README.md](https://github.com/user-attachments/files/28671447/README.md)
 Predicting House Prices Using Real Estate Data
 
-An end-to-end Machine Learning system engineered to predict house prices using real estate transaction data. This project processes a dataset of over 247,000 records, optimizes prediction patterns utilizing a high-performance **LightGBM Regressor**, exposes a production-ready **FastAPI** backend, and provides an interactive **Streamlit** user interface for seamless, real-time predictions.
+So basically an end-to-end Machine Learning system built to forecast house prices , from real estate transaction data. The project goes through a dataset with more than 247,000 records , then tunes the prediction behavior using a fast and solid **LightGBM Regressor**. After that it brings in a production-ready **FastAPI backend**, and there’s also a *Streamlit interface*, so you can get real-time predictions, in a more interactive kind of way.
 
 ---
 
-## 🚀 Key Features & Architectural Highlights
-* **Gradient Boosted Intelligence:** Implements LightGBM to sequentially correct model errors, surpassing standard linear or baseline random forest techniques.
-* **Multi-Core Scaling:** Configured explicitly to distribute heavy matrix computations across all available CPU cores using native parallelization.
-* **Feature Synergy:** Engineered complex interaction variables (`Age_At_Sale`, `Total_Rooms`, `Size_Per_Room`) to capture structural space layout and asset depreciation trends.
-* **Decoupled Full-Stack Architecture:** Separates the heavy model training workload from real-time prediction serving via a lightweight HTTP API and reactive frontend.
-
+##  Key Features & Architectural Highlights
+* **Gradient Boosted Intelligence:** Uses LightGBM in a step-by-step way to patch model mistakes one after another, beating the usual linear baselines or even a default random forest set up.
+* **Multi-Core Scaling:** Explicitly configured so the heavy matrix computations get spread across all the available CPU cores, relies on built-in parallelization.  
+* **Feature Synergy:** Built layered interaction variables like `Age_At_Sale`, `Total_Rooms`, `Size_Per_Room` , aiming to describe the space layout more realistically and reflect asset depreciation patterns.
+* **Decoupled Full-Stack Architecture:** Keeps the training-heavy side apart from real-time prediction delivery, using a lightweight HTTP endpoint plus a reactive frontend, so it all stays responsive and clean.
 ---
 
-## 📂 Project Structure
-```text
+##  Project Structure
+
 ├── script.py                # Cleans raw data, engineers features, and saves the trained model
 ├── app.py                   # FastAPI backend server exposing the prediction endpoint
 ├── ui.py                    # Streamlit frontend user interface
