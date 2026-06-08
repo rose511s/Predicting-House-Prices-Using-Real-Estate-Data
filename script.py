@@ -62,8 +62,8 @@ new_r2 = r2_score(y_test, predictions)
 new_mae = mean_absolute_error(y_test, predictions)
 
 
-print(f"New Upgraded R-squared Score: {new_r2:.4f}")
-print(f"New Mean Absolute Error: ${new_mae:.2f}")
+print(f"R-squared Score: {new_r2:.4f}")
+print(f"Mean Absolute Error: ${new_mae:.2f}")
 
 joblib.dump(hyper_model, "house_model.pkl")
 joblib.dump(X.columns.tolist(), "model_features.pkl")
