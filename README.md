@@ -24,12 +24,14 @@ So basically an end-to-end Machine Learning system built to forecast house price
 ```
 
 Local API Setup:
+---
 -python -m uvicorn app:app --reload
 -Navigate to http://127.0.0.1:8000/docs access the interactive Swagger UI
 Local Streamlit Frontend:
+---
 -python -m streamlit run ui.py
 -Navigate to http://localhost:8501 
-
+---
 Architecture Option 2: Unified Cloud Deployment
 Live public Application link --> https://predicting-house-prices-using-real-estate-data.streamlit.app/
 
