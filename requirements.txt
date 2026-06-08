@@ -6,3 +6,4 @@ pandas
 lightgbm
 joblib
 openpyxl
+pydantic
